@@ -14,7 +14,7 @@ a {
 }
 
 body {
-    background-color: rgb(245, 235, 235);
+    background-color: rgb(227, 230, 255);
 }
 
 #rectangle{
@@ -34,7 +34,7 @@ body {
     left: 1vw;
     font-family: "Rubik";
     font-size: 3vw;
-    color: rgb(245, 235, 235);
+    color: rgb(140, 144, 173);
 }
 
 
@@ -45,7 +45,7 @@ h2 {
     margin: auto;
     font-family: "Rubik";
     font-size: 2vw;
-    color: rgb(245, 235, 235);
+    color: rgb(140, 144, 173);
 }
 
 #meist {
