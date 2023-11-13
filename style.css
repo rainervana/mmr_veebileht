@@ -143,3 +143,12 @@ p {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+#meiepilt {
+  position: absolute;
+  width: 40%;
+  top: 10vw;
+  left: 55%;
+  z-index: -2;
+}
