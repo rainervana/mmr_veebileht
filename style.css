@@ -191,7 +191,7 @@ p {
 /* tooted.html */
 .toode {
   position: absolute;
-  left: 2vw;
+  left: 1.25vw;
   top: 9vw;
   width: 31vw;
   height: 31vw;
@@ -200,7 +200,17 @@ p {
   background-repeat: no-repeat;
   background-color: rgb(235, 225, 225);
   z-index: -3;
+  transition: 0.2s;
+  border-color: rgb(215, 205, 205);
 }
+
+.toode:hover {
+  background-color: rgb(225, 215, 215);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(215, 205, 205);
+}
+
 
 .toode1 {
   z-index: -2;
@@ -209,13 +219,13 @@ p {
 
 .toode2 {
   z-index: -2;
-  left: 35vw;
+  left: 34.35vw;
   background-image:url('pildid/tootepildid/tshirt2.png');
 }
 
 .toode3 {
   z-index: -2;
-  left: 68vw;
+  left: 67.3vw;
   background-image:url('pildid/tootepildid/tshirt3.png');
 }
 
@@ -227,14 +237,14 @@ p {
 
 .toode5 {
   top: 42vw;
-  left: 35vw;
+  left: 34.35vw;
   z-index: -2;
   background-image:url('pildid/tootepildid/hoodie2.png');
 }
 
 .toode6 {
   top: 42vw;
-  left: 68vw;
+  left: 67.3vw;
   z-index: -2;
   background-image:url('pildid/tootepildid/cap.png');
 }
