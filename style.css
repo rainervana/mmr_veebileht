@@ -56,9 +56,6 @@ h2 {
     left: 58vw;
 }
 
-#infomeist {
-  font-size: 100%;
-}
 
 p {
     z-index: -2;
@@ -145,10 +142,99 @@ p {
 }
 
 
+
+/* meist.html */
+#infomeist {
+  font-size: 1.35vw;
+  width: 65vw;
+}
+
 #meiepilt {
   position: absolute;
-  width: 40%;
-  top: 10vw;
-  left: 55%;
+  width: 30vw;
+  top: 8vw;
+  right: 2vw;
   z-index: -2;
+}
+
+
+
+/* info.html */
+.mapouter {
+  position:relative;
+  left:57%; 
+  top: 8vw; 
+  height:42vw; 
+  width:42vw; 
+  background:#fff;
+  z-index: -3;
+} 
+
+.maprouter a{
+  color:#fff;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+}
+.gmap_canvas {
+  overflow: hidden;
+  height: 42vw;
+  width: 42vw;
+  z-index: -3;
+}
+.gmap_canvas iframe {
+  position: relative;
+  z-index: -2;
+}
+
+
+/* tooted.html */
+.toode {
+  position: absolute;
+  left: 2vw;
+  top: 9vw;
+  width: 31vw;
+  height: 31vw;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(235, 225, 225);
+  z-index: -3;
+}
+
+.toode1 {
+  z-index: -2;
+  background-image:url('pildid/tootepildid/tshirt.png');
+}
+
+.toode2 {
+  z-index: -2;
+  left: 35vw;
+  background-image:url('pildid/tootepildid/tshirt2.png');
+}
+
+.toode3 {
+  z-index: -2;
+  left: 68vw;
+  background-image:url('pildid/tootepildid/tshirt3.png');
+}
+
+.toode4 {
+  top: 42vw;
+  z-index: -2;
+  background-image:url('pildid/tootepildid/hoodie.png');
+}
+
+.toode5 {
+  top: 42vw;
+  left: 35vw;
+  z-index: -2;
+  background-image:url('pildid/tootepildid/hoodie2.png');
+}
+
+.toode6 {
+  top: 42vw;
+  left: 68vw;
+  z-index: -2;
+  background-image:url('pildid/tootepildid/cap.png');
 }
