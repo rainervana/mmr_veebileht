@@ -86,9 +86,9 @@ p {
 /* Slideshow container */
 /* https://www.w3schools.com/howto/howto_js_slideshow.asp */
 .slideshow-container {
-  top: 10vw;
-  left: 15%;
-  width: 70%;
+  top: 7vw;
+  left: 0%;
+  width: 100%;
   position: absolute;
   z-index: -3;
 }
