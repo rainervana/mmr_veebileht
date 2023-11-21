@@ -182,6 +182,7 @@ p {
 /* info.html */
 #kontakt{
   z-index: 1;
+  font-size: 1.5vw;
 }
 
 .mapouter {
