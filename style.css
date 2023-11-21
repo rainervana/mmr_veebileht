@@ -170,6 +170,10 @@ p {
 
 
 /* info.html */
+#kontakt{
+  z-index: 1;
+}
+
 .mapouter {
   position:relative;
   left: 54vw; 
@@ -177,24 +181,20 @@ p {
   height:42vw; 
   width:44vw; 
   background:#fff;
-  z-index: -3;
 } 
 
 .maprouter a{
   color:#fff;
   position: absolute;
   top: 0;
-  z-index: -2;
 }
 .gmap_canvas {
   overflow: hidden;
   height: 42vw;
   width: 44vw;
-  z-index: -3;
 }
 .gmap_canvas iframe {
   position: relative;
-  z-index: -2;
 }
 
 
