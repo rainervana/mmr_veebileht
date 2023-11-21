@@ -8,13 +8,18 @@
   src: url("fonts/Roboto.ttf");
 }
 
+@font-face {
+  font-family: "Graffiti";
+  src: url("fonts/logofont.ttf");
+}
+
 /* Main styling */
 :root {
-  --text-color: rgb(51, 41, 41);
-  --nav-bar-color: rgb(55, 45, 45);
-  --bg-color: rgb(245, 235, 235);
-  --toode-bg-color: rgb(235, 225, 225);
-  --toode-fade-color: rgb(225, 215, 215);
+  --text-color: #D6D6D6;
+  --nav-bar-color: #2C2B30;
+  --bg-color: #555555;
+  --toode-bg-color: #505050;
+  --toode-fade-color: #494949;
 
 
 }
@@ -25,7 +30,7 @@ a {
 }
 
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--bg-color);
 }
 
 #rectangle{
@@ -46,7 +51,7 @@ h1 {
   left: 37vw;
   font-family: "Rubik";
   font-size: 2vw;
-  color: var(--bg-color);
+  color: var(--text-color);
   transition: 0.1s;  
 }
 
@@ -56,9 +61,14 @@ h1:hover {
 }
 
 #MMR {
-  top: 1.5vw;
+  top: 1.8vw;
   left: 1.5vw;
   font-size: 3vw;
+  font-family: "Graffiti";
+}
+
+#MMR:hover{
+  color: rgb(209, 138, 88)
 }
 
 #meist {
