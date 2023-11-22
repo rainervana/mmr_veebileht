@@ -1,0 +1,14 @@
+/* meist.html */
+#infomeist {
+    font-size: 1.35vw;
+    width: 65vw;
+}
+  
+#meiepilt {
+  position: absolute;
+  width: 30vw;
+  top: 8vw;
+  right: 2vw;
+  z-index: -2;
+}
+  

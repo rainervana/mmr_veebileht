@@ -1,0 +1,33 @@
+/* info.html */
+#kontakt{
+    z-index: 1;
+    font-size: 1.5vw;
+}
+  
+.mapouter {
+    position:relative;
+    left: 54vw; 
+    top: 8vw; 
+    height:42vw; 
+    width:44vw; 
+    background:#fff;
+} 
+  
+.maprouter a{
+    color:#fff;
+    position: absolute;
+    top: 0;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    height: 42vw;
+    width: 44vw;
+}
+
+.gmap_canvas iframe {
+    position: relative;
+}
+  
+  
+  
