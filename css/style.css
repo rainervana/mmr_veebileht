@@ -43,9 +43,9 @@ a {
   left: 0;
   position: fixed;
   width: 100%;
-  height: 7vw;
+  height: 13vh;
   background: var(--nav-bar-color);
-  z-index: -1;
+  z-index: 5;
 }
 
 
@@ -53,12 +53,13 @@ a {
 h1 {
   position: fixed;
   margin: auto;
-  top: 2.1vw;
+  top: 4vh;
   left: 37vw;
   font-family: "Rubik";
-  font-size: 2vw;
+  font-size: min(2vw, 5vh);
   color: var(--text-color);
-  transition: 0.1s;  
+  transition: 0.1s;
+  z-index: 6;
 }
 
 h1:hover {
@@ -67,9 +68,9 @@ h1:hover {
 }
 
 #MMR {
-  top: 1.8vw;
+  top: 3.6vh;
   left: 1.5vw;
-  font-size: 3vw;
+  font-size: min(3vw, 7vh);
   font-family: "Graffiti";
 }
 
@@ -87,11 +88,11 @@ h1:hover {
 
 /* Teksti stiil root */
 p {
-  z-index: -2;
+  z-index: 1;
   font-family: 'Roboto';
   font-size: 2vw;
   position: absolute;
-  top: 7vw;
+  top: 13vh;
   left: 0.75vw;
   width: 50vw;
   color: var(--text-color);
@@ -104,11 +105,12 @@ p {
 /* Slideshow container */
 /* https://www.w3schools.com/howto/howto_js_slideshow.asp */
 .slideshow-container {
-  top: 7vw;
+  top: 7vh;
   left: 0%;
-  width: 100%;
+  width: 100vw;
+  height: 93vh;
   position: absolute;
-  z-index: -3;
+  z-index: 2;
 }
 
 /* Hide the images by default */

@@ -1,84 +1,74 @@
 /* tooted.html */
+/* lehe pikendaja, kindlasti saab paremini. */
 #extender {
-    position: absolute;
-    top: 140vh;
-    color: var(--bg-color);
-    z-index: -3;
-  }
+  position: absolute;
+  top: 140vh;
+  color: var(--bg-color);
+  z-index: -3;
+}
+
+/* seab tooted gridi */
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  padding-top: 15vh;
+  gap: 20px;
+}
+
+/* toote box n-ö (div) */
+.toode {
+  width: 31vw;
+  height: 31vw;
+  background-size: contain;
+  transition: 0.2s;
+  background-color: var(--toode-bg-color);
+}
+
+/* väike animation */
+.toode:hover {
+  background-color: var(--toode-fade-color);
+} 
+
+.toode:hover > h2{
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* toote info stiil */
+h2 {
+  position: relative;
+  font-family: "Roboto";
+  font-size: 2.5vw;
+  color: rgba(255,255,255,0);
+  top: 25vw;
+  text-align: center;
+  text-anchor: middle;
+  transition: 0.2s;
+  z-index: 2;
+}
   
-  .toode {
-    position: absolute;
-    left: 1.25vw;
-    top: 9vw;
-    width: 31vw;
-    height: 31vw;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: var(--toode-bg-color);
-    z-index: -3;
-    transition: 0.2s;
-    border-color: var(--toode-fade-color);
-  }
+/* toodete pildid */
+.toode1 {
+  background-image:url('../pildid/tootepildid/tshirt.png');
+}
   
-  .toode:hover {
-    background-color: var(--toode-fade-color);
-    border: solid;
-    border-width: 4px;
-    border-color: var(--toode-fade-color);
-    
-    & > #tooteinfo {
-      color: rgba(255,255,255,1);;
-      text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
-    }
-  }
+.toode2 {
+  background-image:url('../pildid/tootepildid/tshirt2.png');
+}
   
-  #tooteinfo {
-    position: relative;
-    font-family: "Roboto";
-    font-size: 2.5vw;
-    color: rgba(255,255,255,0);
-    top: 25vw;
-    text-align: center;
-    text-anchor: middle;
-    transition: 0.2s;
-    z-index: -2;
-  }
+.toode3 {
+  background-image:url('../pildid/tootepildid/tshirt3.png');
+}
   
+.toode4 { 
+  background-image:url('../pildid/tootepildid/hoodie.png');
+}
   
-  .toode1 {
-    z-index: -2;
-    background-image:url('../pildid/tootepildid/tshirt.png');
-  }
+.toode5 {
+  background-image:url('../pildid/tootepildid/hoodie2.png');
+}
   
-  .toode2 {
-    z-index: -2;
-    left: 34.35vw;
-    background-image:url('../pildid/tootepildid/tshirt2.png');
-  }
-  
-  .toode3 {
-    z-index: -2;
-    left: 67.3vw;
-    background-image:url('../pildid/tootepildid/tshirt3.png');
-  }
-  
-  .toode4 {
-    top: 42vw;
-    z-index: -2;
-    background-image:url('../pildid/tootepildid/hoodie.png');
-  }
-  
-  .toode5 {
-    top: 42vw;
-    left: 34.35vw;
-    z-index: -2;
-    background-image:url('../pildid/tootepildid/hoodie2.png');
-  }
-  
-  .toode6 {
-    top: 42vw;
-    left: 67.3vw;
-    z-index: -2;
-    background-image:url('../pildid/tootepildid/cap.png');
-  }
+.toode6 {
+  background-image:url('../pildid/tootepildid/cap.png');
+}
